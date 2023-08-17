@@ -1,0 +1,233 @@
+.bu1 {
+    background-color: #FF6B00;
+    height: 65px;
+    width: 350px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: white;
+    margin-top: 7rem;
+    box-shadow: 7px 7px 25px #a4a4a8;
+}
+.bu1:hover{
+    background-color: #FE984E;
+}
+.bu2{
+    background-color: #FF6B00;
+    color: white;
+    box-shadow: none;
+}
+.bu2:hover{
+    background-color: #FE984E;
+    box-shadow: none;
+    color: white;
+}
+#bu4{
+    background-color: #36B37E;
+    margin-top: 30px;
+}
+textarea{
+       box-shadow: none !important;
+}
+textarea:focus{
+    border: 2px solid #FF6B00 !important;
+}
+input:focus{
+    border: 2px solid #FF6B00 !important;
+}
+#bu4:hover{
+    background-color: #C5E9DA;
+    box-shadow: none;
+}
+#bu4:active{
+    background-color:#28855D;
+    box-shadow: none;
+}
+.cont6 svg:hover{
+    fill: #FF6B00;
+}
+.card img{
+    box-shadow: 7px 7px 10px  #a4a4a8;
+}
+.cont{
+    margin-top: 13rem !important;
+}
+.diii{
+    color: #172B4D;z
+}
+.bu3{
+    margin-top: 1rem;
+}
+@media only  screen and (width:1440px){
+   .image{
+    width: 800px;
+   }
+}
+@media only  screen and (min-width:1440px) {
+    .tx{
+        font-size: 50px;
+        margin-left: 7rem;
+    }
+    .ts{
+        font-size: 50px;        
+    }
+    .cont{
+        margin-top: 16rem !important;
+    }
+    .cont5{
+        margin-left: 7rem !important;
+    }
+    .cont6{
+        margin-left: 14rem !important;
+    }
+    .bu1{
+        margin-left: 14rem !important;
+    }
+}
+@media only  screen and (width: 1024px){
+   .image{
+    width: 570px;
+   }
+   .tss{
+    font-size: 15px !important;
+   }
+}
+@media screen and (min-width: 1024px){
+    .sec{ 
+        height: 100vh; 
+        overflow: hidden;
+    }
+    .bu1{
+        margin-left: 8rem;
+    }
+    .cont6{
+        margin-left: 8rem;
+    }
+    .img{
+        height: 96vh;
+        justify-content: center;
+    }
+    .cont3{
+        font-size: 25px !important;
+    }
+}
+@media screen and (max-width: 1024px){
+    .sec3 button{
+        font-size: 10px;
+    }
+    .bu3 button{
+        font-size: 10px;
+      }
+      #last{
+      margin-left: -3px !important;
+      }
+      .rou{
+        margin-top: 7rem !important;
+      }
+      .diii{
+        margin-top: 6rem !important;
+      }
+      .inpp{
+        width: 14rem !important;
+        margin-right: 5px !important;
+      }
+      .inpp1{
+        width: 14rem !important;
+      }
+}
+/* @media only  screen and (min-width:1440px) {
+    .img{
+    background-color: #28855D;
+    height: 100vh;
+    }
+    .sec{ 
+        margin:0;
+        padding:0; 
+        width:1440px;
+       overflow: hidden;
+    }
+  } */
+@media only screen and (width: 768px){
+    .rou{
+        margin-top: 1rem !important;
+    }
+    .diii{
+        margin-top: -2rem !important;
+    }
+    .cont{
+        margin-top: 50px !important;
+    }
+    .cont3{
+        font-size: 20px !important;
+    }
+    .img{
+        width: 100%;
+    }
+    .image{
+        margin-left: 6rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    .cont{
+        margin-top: none;
+        margin-bottom: -10rem;
+    }
+    .img{
+        margin-top: 9rem;
+    }
+    .bu2{
+        margin-left: 125px;
+    }
+    .card {
+        border-left: none;
+        border-right: none;
+    }
+    .cont1 {
+        margin-top: -11rem;
+    }
+   .di{
+        margin-top: -2rem;
+    }
+    .cont3{
+    font-weight: 900;
+    }
+    .bu3 button{
+      font-size: 10px;
+    }
+    .diii{
+        margin-top: 2rem !important;
+    }
+    .cont2{
+        margin-top: 2px !important;
+    }
+    .cont4{
+        margin-top: -70px !important;
+    }
+    .image{
+        width: 400px;
+    }
+    .cont{
+        margin-top: 5rem !important;
+    }
+}
+@media screen and (max-width: 375px){
+    .bu2{
+        margin-left: 110px;
+    }
+    .image{
+        width: 350px;
+    }
+}
+@media screen and (max-width: 320px){
+    .bu5{
+        margin-top: 1rem !important; 
+    }
+    .bu2{
+        margin-left: 80px !important;
+    }
+    .image{
+        width: 300px;
+    }
+    .tsss{
+      font-size: 1rem !important;
+    }
+}
